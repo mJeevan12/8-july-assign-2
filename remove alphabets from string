@@ -1,0 +1,7 @@
+s=input()
+o=[]
+for i in s:
+    if i not in o:
+        o.append(i)
+        if i.isalpha():
+                  print(i,end='')      
